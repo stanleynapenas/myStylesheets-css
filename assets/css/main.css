@@ -1,3 +1,6 @@
+/* stylesheet css components stanleynapenas.com */
+
+
 /* Macro Class */
 .body {
   background-color: #f3f3f5;
@@ -5,11 +8,21 @@
   font-family: "roboto", Arial, sans-serif;
 }
 
-.whitenav {
-  background-color: white;
+
+/* LOGO */
+
+.logo {
+height: 90px;
+transition: ease-in-out 500ms;
 }
 
-/* Typography Section */
+.logo:hover {
+text-decoration: none;
+transform: scale(1.05);
+}
+
+
+/* Macro Components in Stylesheet */
 .white-box {
   position: relative;
   background-color: white;
@@ -25,34 +38,60 @@
   text-transform: uppercase;
 }
 
+.white-divider {
+    width: 100%;
+    height: 1px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+.divider {
+    width: 100%;
+    height: 1px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: #f3f3f5;
+  }
+
+  .title-grey {
+    text-transform: uppercase;
+    font-size: 11px;
+    color: #cccccc;
+    margin-bottom: 40px;
+  }
+  
+
 .col2 {
   margin-top: 30px;
 }
 
-.divider {
-  width: 100%;
-  height: 1px;
-  margin-top: 20px;
-  margin-bottom: 10px;
-  background-color: #f3f3f5;
+
+
+.margin-top60{
+    margin-top: 60px;
 }
 
-/* Random Fix */
-.white-divider {
-  width: 100%;
-  height: 1px;
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
+/* btn-primary */
+.btn-primary {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+  }
+  .btn-primary:focus {
+    background-color: #286090;
+    border-color: #122b40;
+  }
+  .btn-primary:hover {
+    color: #fff;
+    background-color: #286090;
+    border-color: #204d74;
+  }
 
-.title-grey {
-  text-transform: uppercase;
-  font-size: 11px;
-  color: #cccccc;
-  margin-bottom: 40px;
-}
+
+
 
 /* Colors */
+
 .color {
   height: 50px;
   width: 100%;
@@ -87,7 +126,10 @@
   width: 100%;
 }
 
-/* Color */
+
+
+/* Logo */
+
 .logoBox {
   padding: 15px;
   width: 100%;
@@ -104,11 +146,15 @@
   border: 1px solid #ebebeb;
 }
 
+
+
 /* Form */
 form {
   padding: 15px;
   border-radius: 4px;
 }
+
+
 
 /* Footer */
 
@@ -132,3 +178,58 @@ footer {
   color: white;
   transform: scale(1.2);
 }
+
+
+
+
+
+
+/* IF NEEDED */
+
+
+
+/* body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6em;
+  color: #333333;
+  background-color: #fff;
+} */
+
+
+/* Logo */
+
+/* .logo {
+  height: 90px;
+  transition: ease-in-out 500ms;
+}
+
+.logo:hover {
+  text-decoration: none;
+  transform: scale(1.05);
+} */
+
+
+/* Button */
+
+/* .btn-primary {
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+.btn-primary:focus {
+  background-color: #286090;
+  border-color: #122b40;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #286090;
+  border-color: #204d74;
+} */
+
+
+
+/* /IF NEEDED */
+
+
+/* stylesheet css components stanleynapenas.com */
